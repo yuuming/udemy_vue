@@ -1,7 +1,7 @@
 var app = new Vue({
     el: '#app',
     data: {
-        message: "Hiiiiiiii"
+        newItem: ''
     },
     methods: {
         addItem: function(event){
