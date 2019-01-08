@@ -1,3 +1,11 @@
 var app = new Vue({
-    el: '#app'
+    el: '#app',
+    data: {
+        message: "Hiiiiiiii"
+    },
+    methods: {
+        addItem: function(event){
+            alert();
+        }
+    }
 })
